@@ -1,0 +1,20 @@
+Q1: Hãy cho biết câu lệnh tạo ngẫu nhiên một số trong đoạn [1 200]?
+A1: randi([1, 200]);
+
+Q2: Hãy cho biết câu lệnh truy cập phần tử dòng 3, cột 5 của ma trận A?
+A2: A(3, 5);
+
+Q3: Hãy cho biết câu lệnh tạo ma trận A kích thước 100x200 và các giá trị đều là zero (0)?
+A3: A = zeros(100, 200);
+
+Q4: Hãy cho biết câu lệnh lấy số dòng của ma trận A?
+A4: size(A, 1);
+
+Q5: Hãy cho biết câu lệnh lấy vector cột 10 của ma trận A?
+A5: A(:, 10);
+
+Q6: Hãy cho biết câu lệnh vector dòng 10 của ma trận A?
+A6: A(10, :);
+
+Q7: Hãy cho biết câu lệnh chuyển vector dòng thành ma trận 28x28?
+A7: reshape(A, 28, 28)
